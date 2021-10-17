@@ -1,0 +1,76 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.box{
+    font-size: 62.5%;
+    background-color: pink;
+}
+
+
+.main_menu{
+    background-color: royalblue;
+}
+
+.nav-link{
+    color: white!important;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover{
+    color:red!important;
+}
+
+.navbar-brand{
+    color:white!important;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover{
+    color:red!important;
+}
+
+.navbar-toggler{
+    background-color: gray;
+}
+
+.navbar{
+    padding: 2rem 0;
+}
+
+.navbar a{
+    color:#fff;
+    font-size: 1.8rem;
+}
+
+.navbar li{
+    margin-left:2rem;
+}
+
+.container{
+    width: 40rem;
+    height: 30rem;
+    border: 2px solid white;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: white;
+   
+}
+
+.form-label{
+    font-size: 1rem;
+}
+
+@media(max-width:668px){
+    .nav-link{
+        text-align: center;
+    }
+}
